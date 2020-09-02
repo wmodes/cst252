@@ -38,6 +38,6 @@ $.ajax({
 
 })
 // If the request fails
-.fail(function( xhr, status, errorThrown ) { 
+.fail(function( xhr, status, errorThrown ) {
     console.log(errorThrown + " Status:" + status );
 });
