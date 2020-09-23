@@ -30,3 +30,13 @@ a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
 }
+
+.strike {
+  text-decoration: line-through;
+}
+
+#output {
+  min-height: 40px;
+  border: solid 1px black;
+  padding: 10px;
+}
