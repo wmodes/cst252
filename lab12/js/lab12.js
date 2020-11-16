@@ -19,7 +19,7 @@ function getFactorObj() {
         textId = "text" + factor;
         numValue = document.getElementById(numId).value;
         textValue = document.getElementById(textId).value;
-        console.log(factor + ") num:", numValue, "text:", textValue)
+        console.log(factor + ") num:", numValue, "text:", textValue);
         // if either value is blank, don't use it
         if (numValue && textValue) {
             factorObj[numValue] = textValue;
@@ -36,12 +36,11 @@ function outputToPage(str) {
 
 // given a number and an object that looks like this:
 //      {3: "Fizz", 5: "Buzz", 7: "Boom"}
-// loops over the numbers and outputs the number and the matching text 
+// loops over the numbers and outputs the number and the matching text
 // for factors
 function fizzBuzzBoom(maxNums, factorObj) {
     // iterate over all of out numbers
     for (var num=0; num<maxNums; num++) {
-        debugger;
         // reset output string
         var outputStr = "";
         // iterate over the factors we got from the html
@@ -66,7 +65,7 @@ function reportError(str) {
 
 document.getElementById("submit").addEventListener("click", function() {
     var max = document.getElementById("max").value;
-    console.log("max:", max)
+    console.log("max:", max);
     if (! max) {
         reportError("You must provide a maximum");
         return;

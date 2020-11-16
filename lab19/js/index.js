@@ -1,4 +1,5 @@
 
+URL = "https://www.boredapi.com/api/activity/"
 
 // attach click action to button
 $('#action').click(function(){
@@ -6,7 +7,7 @@ $('#action').click(function(){
     // Using the core $.ajax() method
     $.ajax({
         // The URL for the request (ENDPOINT)
-        url: "https://swapi.co/api/people/1/",
+        url: URL,
         // The data to send (will be converted to a query string)
         // data: { id: 123},
         // Whether this is a POST or GET request
@@ -20,5 +21,4 @@ $('#action').click(function(){
         // put data in webpage
         $("#output").append("<p>" + JSON.stringify(data));
     })
-    console.log("This is for you, Jeremy.");
 });
