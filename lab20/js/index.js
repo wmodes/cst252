@@ -37,7 +37,8 @@ function getComic(num) {
           <img src="${imageUrl}" title="${alt}"><br>
           <button id="prev">Previous</button><button id="next">Next</button>
         </div>`
-      $("#xkcd").html(html);
+      console.log("My new html: ", html);
+      $("#output").html(html);
 
       // add event listener to new prev button
       $("#prev").click(function(){
