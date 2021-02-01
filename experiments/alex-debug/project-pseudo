@@ -1,0 +1,29 @@
+# Notes:
+#  * We have 6 items + one for the larger item
+#  * All items are places within larger item
+#  * Each item has its own hover meta box
+
+# In HTML:
+#   Establish some boxes where things go
+#     Main box for images
+#     Box on left for meta-boxes for left
+#     Box on right for meta-boxes for right
+#   Display larger image
+#   Display smaller images
+#   Display meta-boxes
+#   At this point, metaboxes will just be piled up
+#     in their divs, and the smaller images will be
+#     piled up under the main image
+
+# In CSS:
+#   Position larger image
+#   Position smaller images on top of larger images
+#   Position metaboxes where they belong in their
+#     respective divs
+#   After everything is positioned, make the metaboxes
+#     hidden by default
+#   Create class 'shown' that has 'visibility: visible !important;'
+
+# jQuery
+#   For each smaller image, attach a mouseover listener that will
+#     add the 'shown' class to the appropriate metaboxes

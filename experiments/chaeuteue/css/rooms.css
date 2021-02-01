@@ -1,0 +1,11 @@
+
+
+.room {
+  border: solid 1px red;
+  min-height: 80vh;
+  display: none;
+}
+
+.shown {
+  display: block !important;
+}
