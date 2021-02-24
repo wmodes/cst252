@@ -4,7 +4,17 @@
  * License: Public Domain
  */
 
-// shuffleArray - take an array and shuffle the contents
+function doSillyStuff() {
+
+  // put stuff here
+
+  return something;
+}
+
+
+
+
+// shuffleArray - take an array, returns shuffled array
 // Thanks to https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
@@ -34,8 +44,9 @@ function toTitleCase(str) {
     );
 }
 
-// sortUserName - a function that takes user input and sorts the letters
-// of their name
+// sortUserName
+//  a function that takes user input and sorts the letters
+//  of their name
 function sortUserName(userName) {
     // // convert to lower case
     // userName = userName.toLowerCase();
@@ -70,8 +81,14 @@ function randomizeName(userName) {
     return newName;
 }
 
+function getName() {
+  var name = window.prompt("Hi. Please tell me your name so I can fix it.");
+  // var name = document.getElementById("inputField").val
+  return name;
+}
+
 function main() {
-    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+    var userName = getName();
     document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
     var sortedName = sortUserName(userName);
     document.writeln("Here's your sorted name: " + sortedName + "</br></br>");
