@@ -4,30 +4,32 @@
  * License: Public Domain
  */
 
-// Create a <button> element (in jQuery, NOT In your HTML).
-var myButton = $("<button>");
+ window.onload = function () {
 
-// Give it a text label
-myButton.html("Press me");
+	 // your script here
 
-// Add it to your output div
-$("#output").append(myButton);
+	// Create a <button> element (in jQuery, NOT In your HTML).
+	var myButton = $("<button>");
 
-// Add a click event to it that will bring up an alert
-myButton.click(function(){
-	// Restyle the button with jQuery so it is a pleasant green.
-	// myButton.css("background-color", "#a8d973");
-	myButton.addClass("green-button");
-	// alert("Don't touch me. #metoo");
-	$("#pop-up").toggleClass("shown");
-})
+	// Give it a text label
+	myButton.html("Press me");
 
-$("#pop-submit").click(function(){
-	var name = $("#stuff").val();
-	$("#your-name-here").html(name);
-	$("#pop-up").removeClass("shown");
-})
+	// Add it to your output div
+	$("#output").append(myButton);
 
+	// Add a click event to it that will bring up an alert
+	myButton.click(function(){
+		// Restyle the button with jQuery so it is a pleasant green.
+		// myButton.css("background-color", "#a8d973");
+		myButton.addClass("green-button");
+		// alert("Don't touch me. #metoo");
+		$("#pop-up").toggleClass("shown");
+	})
 
+	$("#pop-submit").click(function(){
+		var name = $("#stuff").val();
+		$("#your-name-here").html(name);
+		$("#pop-up").removeClass("shown");
+	})`
 
-
+}

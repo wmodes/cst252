@@ -1,0 +1,16 @@
+
+#button-field {
+  height: 80vh;
+}
+
+.major-section {
+  border: dotted 1px gray;
+}
+
+#better-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.25s;
+}
