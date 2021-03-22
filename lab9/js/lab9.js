@@ -11,7 +11,7 @@
     // Use getElementById() to find your output <div> and assign it to a variable outputEl (step 1)
     var outputEl = document.getElementById("output");
     console.log("outputEl: ", outputEl);
-
+    
     // Create a new element with document.createElement("p") and assign it to a variable new1El (step 2)
     var new1El = document.createElement("p");
 

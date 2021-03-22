@@ -24,6 +24,7 @@ function getFactorObj() {
         if (numValue && textValue) {
             factorObj[numValue] = textValue;
         }
+        debugger;
     }
     return factorObj;
 }
