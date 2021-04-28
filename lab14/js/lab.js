@@ -5,14 +5,32 @@
  */
 
 
-function Vehicle(make, model, year, color, extras, name) {
-  this.make = make;
-  this.model = model;
-  this.year = year;
-  this.color = color;
-  this.extras = extras;
-  this.name = name;
-  this.info = function() {
+// Hey, this is the prototyping method
+//
+// function Vehicle(make, model, year, color, extras, name) {
+//   this.make = make;
+//   this.model = model;
+//   this.year = year;
+//   this.color = color;
+//   this.extras = extras;
+//   this.name = name;
+//   this.info = function() {
+//     return this.color + " " + this.year + " " + this.make + " " +  this.model + " with " +  this.extras + " called " + this.name;
+//   }
+// }
+
+// This is the NEW class method
+//
+class Vehicle {
+  constructor(make, model, year, color, extras, name) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.color = color;
+    this.extras = extras;
+    this.name = name;
+  }
+  info() {
     return this.color + " " + this.year + " " + this.make + " " +  this.model + " with " +  this.extras + " called " + this.name;
   }
 }

@@ -1,7 +1,7 @@
 
-// URL = "https://www.boredapi.com/api/activity/"
-// URL = "https://api.kanye.rest/"
-URL = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
+//URL = "https://www.boredapi.com/api/activity/"
+URL = "https://api.kanye.rest/"
+//URL = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
 
 // attach click action to button
 $('#action').click(function(){
@@ -20,6 +20,8 @@ $('#action').click(function(){
     // If the request succeeds
     .done(function(data) {
         console.log(data);
+        // make our JSON data printable
+        var printableData = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
         // put data in webpage
         // $("#output").append("<p>" + JSON.stringify(data));
         // $("#output").append("<p>Here's what you should do when you are bored: <b>" + data.activity);
