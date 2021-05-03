@@ -4,7 +4,7 @@
  * License: Public Domain
  */
 
-
+// new Comment
 // Hey, this is the prototyping method
 //
 // function Vehicle(make, model, year, color, extras, name) {
