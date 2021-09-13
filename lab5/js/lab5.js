@@ -4,8 +4,7 @@
 // License: Public Domain
 
 
-console.log("We got this far, yo")
-
+console.log("We got this far, yo");
 
 // Declare variables to hold the make, model, color, and year of your vehicle, example, var year = 2004
 var make = "Ford";
@@ -26,6 +25,7 @@ document.writeln("Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>");
 document.writeln("Extras: " + extras + "<br>");
 document.writeln("Year: " + year + "<br>");
+document.writeln("Own it: " + ownIt + "<br>");
 document.writeln("Age: " + age + "<br>");
 
 document.writeln("");

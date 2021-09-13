@@ -4,6 +4,24 @@
  * License: Public Domain
  */
 
+pizzaList = [
+  "engfer-pizza-works-santa-cruz",
+  "woodstocks-pizza-slo-san-luis-obispo-6",
+]
+
+pizzaObj = [
+  {
+    yelpid: "engfer-pizza-works-santa-cruz",
+    name: "Engfer Pizza Works",
+    city: "Santa Cruz, CA"
+  },
+  {
+    yelpid: "woodstocks-pizza-slo-san-luis-obispo-6",
+    name: "Woodstocks Pizza",
+    city: "San Luis Obispo, CA"
+  }
+]
+
 // new Comment
 // Hey, this is the prototyping method
 //
