@@ -1,3 +1,14 @@
+
+.challenges, .results, .problems {
+    border: solid 1px #888;
+    padding: 20px;
+    margin: 20px;
+}
+
+.changed {
+    color: transparent;
+}
+
 input[type="number"] {
     width: 40px;
 }
@@ -38,4 +49,38 @@ div#input, div#output {
 .error {
     color: red;
     font-weight: bold;
+}
+
+.green-button {
+    background-color: dodgerblue;
+}
+
+/* POP-UP STUFF */
+
+#pop-up {
+    width: 25vw;
+    height: 25vh;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    transform: translate(-50%,-50%);
+    border: solid 2px black;
+    z-index: 1000;
+    background-color: white;
+    /*display: none;*/
+    transition: left 0.5s ease-in-out;
+}   
+
+.shown {
+    /*display: block !important;*/
+    left: 50% !important;
+}
+
+.pop-box {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*border: solid 1px blue;*/
 }
