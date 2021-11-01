@@ -1,3 +1,6 @@
+// guess - guess a number between 1 to n
+// author: wmodes@csumb.edu
+//
 
 var finalFlag, lastGuess, lowerLimit, upperLimit;
 var guessNum = 0;
