@@ -4,6 +4,8 @@
  * License: Public Domain
  */
 
+$(".a-date").datepicker();
+
 maxFactors = 4;
 
 outputEl = document.getElementById("output");
