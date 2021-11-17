@@ -30,5 +30,5 @@ footer {
                     url(jigsaw-bottom.png);
   background-position: left bottom, right bottom, bottom left;
   background-repeat: repeat-y, repeat-y, repeat-x;
-  background-size: 1000px, 1000px, 1000px;
+  background-size: contain, contain, contain;
 }
