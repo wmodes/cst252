@@ -1,0 +1,30 @@
+
+body {
+  font-size: 20px;
+}
+
+.big-box {
+  display: flex;
+}
+
+.video-box {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.video-box, .video-box video {
+  width:100%;
+}
+
+.video-box .cover, .video-box video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 350px;
+}
+
+div {
+  border: solid 1px red;
+}

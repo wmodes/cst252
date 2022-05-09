@@ -113,6 +113,7 @@ function sortingHatHash(str) {
 
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
+  debugger;
   // get value from input field
   var name = document.getElementById("input").value;
   // use name to get house from SortingHat function
